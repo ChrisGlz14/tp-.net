@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace POO2
+{
+    internal class Desarrollador : Persona
+    {
+        public string Lenguajes { get; set; }
+        public string AreaDeDesarrollo { get; set; }
+
+    }
+}
